@@ -1,0 +1,57 @@
+{
+  "title": "CT.gov Country Detailed-Description Gap",
+  "slug": "ctgov-country-detailed-description-gap",
+  "author": "Mahmood Ahmad",
+  "date": "2026-03-29",
+  "path": "C:\\Projects\\ctgov-country-detailed-description-gap",
+  "type": "methods",
+  "primary_estimand": "Detailed-description-gap stock among older studies missing the detailed description field",
+  "summary": "A standalone E156 project on which country-linked portfolios most often omit the broad detailed-description field from older CT.gov records.",
+  "body": "Which country-linked CT.gov portfolios most often leave older study pages without detailed descriptions, removing the broad paragraph that explains what was studied? We analysed 249,507 eligible older closed interventional studies from the March 29, 2026 full-registry snapshot and exploded country links. We defined a detailed-description gap as a missing detailed description field, then ranked country-linked portfolios with at least 500 linked studies by stock and rate. The United States led the country-linked detailed-description-gap stock table at 32,378 studies, followed by France at 8,095, Germany at 7,976, and Canada at 6,834. Japan had the highest large-country detailed-description-gap rate at 63.3 percent, while Slovakia reached 58.1 percent and Romania 56.3 percent. Country-linked detailed-description gaps show where the broad registry narrative disappears most often even when the record still carries dates and status fields. Country-linked rows are non-exclusive because multinational studies can contribute to more than one national portfolio in registry link tables. They describe registry link geography only.",
+  "sentences": [
+    {
+      "role": "Question",
+      "text": "Which country-linked CT.gov portfolios most often leave older study pages without detailed descriptions, removing the broad paragraph that explains what was studied?"
+    },
+    {
+      "role": "Dataset",
+      "text": "We analysed 249,507 eligible older closed interventional studies from the March 29, 2026 full-registry snapshot and exploded country links."
+    },
+    {
+      "role": "Method",
+      "text": "We defined a detailed-description gap as a missing detailed description field, then ranked country-linked portfolios with at least 500 linked studies by stock and rate."
+    },
+    {
+      "role": "Primary result",
+      "text": "The United States led the country-linked detailed-description-gap stock table at 32,378 studies, followed by France at 8,095, Germany at 7,976, and Canada at 6,834."
+    },
+    {
+      "role": "Secondary result",
+      "text": "Japan had the highest large-country detailed-description-gap rate at 63.3 percent, while Slovakia reached 58.1 percent and Romania 56.3 percent."
+    },
+    {
+      "role": "Interpretation",
+      "text": "Country-linked detailed-description gaps show where the broad registry narrative disappears most often even when the record still carries dates and status fields."
+    },
+    {
+      "role": "Boundary",
+      "text": "Country-linked rows are non-exclusive because multinational studies can contribute to more than one national portfolio in registry link tables. They describe registry link geography only."
+    }
+  ],
+  "notes": {
+    "app": "CT.gov Country Detailed-Description Gap dashboard",
+    "data": "249,507 eligible older closed interventional studies with detailed-description-gap stock and rate summaries",
+    "code": "https://github.com/mahmood726-cyber/ctgov-country-detailed-description-gap",
+    "doi": "",
+    "version": "1.0.0",
+    "date": "2026-03-29",
+    "validation": "FULL REGISTRY RUN"
+  },
+  "affiliation": "Tahir Heart Institute",
+  "email": "author@example.com",
+  "references": [
+    "ClinicalTrials.gov API v2. National Library of Medicine. Accessed March 29, 2026.",
+    "DeVito NJ, Bacon S, Goldacre B. Compliance with legal requirement to report clinical trial results on ClinicalTrials.gov: a cohort study. Lancet. 2020;395(10221):361-369.",
+    "Zarin DA, Tse T, Williams RJ, Carr S. Trial reporting in ClinicalTrials.gov. N Engl J Med. 2016;375(20):1998-2004."
+  ]
+}
